@@ -4563,6 +4563,17 @@
 				(xyz -90 -0 -0)
 			)
 		)
+		(model "${KIPRJMOD}/models/SIM7080G.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "RF_Module:ESP32-WROOM-32D"
 		(layer "F.Cu")
@@ -5712,7 +5723,7 @@
 			)
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/RF_Module.3dshapes/ESP32-WROOM-32D.step"
+		(model "${KIPRJMOD}/models/ESP32-WROOM-32.step"
 			(offset
 				(xyz 0 0 0)
 			)
