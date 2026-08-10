@@ -1,0 +1,5 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "SIM7080Footprint") (type "KiCad") (uri "C:/Program Files/KiCad/KiCad_Libraries/SIM7080G") (options "") (descr "") (disabled))
+	(lib (name "SIM7080G") (type "KiCad") (uri "C:/Program Files/KiCad/KiCad_Libraries/SIM7080G/SIM7080G.pretty") (options "") (descr ""))
+)
