@@ -1531,198 +1531,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Regulator_Switching:LM2596S-ADJ"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -10.16 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "LM2596S-ADJ"
-				(at 0 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:TO-263-5_TabPin3"
-				(at 1.27 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2596.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Adjustable 3A Step-Down Voltage Regulator, TO-263"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Step-Down Voltage Regulator Adjustable 3A"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "TO?263*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "LM2596S-ADJ_0_1"
-				(rectangle
-					(start -10.16 5.08)
-					(end 10.16 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "LM2596S-ADJ_1_1"
-				(pin power_in line
-					(at -12.7 2.54 0)
-					(length 2.54)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 12.7 -2.54 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 12.7 2.54 180)
-					(length 2.54)
-					(name "FB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 -2.54 0)
-					(length 2.54)
-					(name "~{ON}/OFF"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "SIM7080G:SIM7080G"
 			(pin_names
 				(offset 1.016)
@@ -3428,9 +3236,527 @@
 			(embedded_fonts no)
 		)
 	)
+	(junction
+		(at 120.65 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2bfa2c58-f7e2-4176-8a75-24a88788188b")
+	)
+	(junction
+		(at 104.14 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ee09d67-fb17-4530-9455-a357abecd691")
+	)
+	(junction
+		(at 107.95 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a61af872-bd42-4c73-a53d-6aad92fec2ae")
+	)
+	(wire
+		(pts
+			(xy 96.52 96.52) (xy 101.6 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0151baaa-eb8f-4390-a93e-89f4781f9e4c")
+	)
+	(wire
+		(pts
+			(xy 189.23 81.28) (xy 189.23 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "035d77c6-ef3c-4806-b3f0-2000dcc1a3a0")
+	)
+	(wire
+		(pts
+			(xy 107.95 73.66) (xy 96.52 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03776a02-cd68-4840-8ccb-28ba28874276")
+	)
+	(wire
+		(pts
+			(xy 107.95 160.02) (xy 120.65 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05181ee1-33a8-4ae9-918d-20873d3ea9bf")
+	)
+	(wire
+		(pts
+			(xy 153.67 124.46) (xy 54.61 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c70421a-581e-4fe5-b659-3d335b65e515")
+	)
+	(wire
+		(pts
+			(xy 121.92 50.8) (xy 120.65 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d53a440-1664-43f7-be06-8d29c621c8d3")
+	)
+	(wire
+		(pts
+			(xy 120.65 50.8) (xy 120.65 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fb80f92-d070-402a-adc8-f08b193dd68f")
+	)
+	(wire
+		(pts
+			(xy 276.86 33.02) (xy 270.51 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1114521e-13aa-4e70-817f-daa4bf0419d1")
+	)
+	(wire
+		(pts
+			(xy 213.36 55.88) (xy 219.71 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14e23b7b-6fd0-4c46-8abb-5fc0a54f3e7c")
+	)
+	(wire
+		(pts
+			(xy 96.52 93.98) (xy 214.63 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17bfc6fc-6e13-442a-a110-9605b7a3c660")
+	)
+	(wire
+		(pts
+			(xy 96.52 91.44) (xy 214.63 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "296cb5ca-88f0-4097-8b4d-9d1f1779852a")
+	)
+	(wire
+		(pts
+			(xy 96.52 76.2) (xy 104.14 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a934581-b2fd-4765-8c4b-1a2a3779a3e6")
+	)
+	(wire
+		(pts
+			(xy 116.84 63.5) (xy 116.84 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d86c531-8ee3-4656-8571-a0678ced98a0")
+	)
+	(wire
+		(pts
+			(xy 96.52 88.9) (xy 213.36 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e53f6cc-1903-41cb-8527-85e6ff3afca5")
+	)
+	(wire
+		(pts
+			(xy 276.86 113.03) (xy 276.86 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31ac3fda-6e52-4b8b-b67f-310e81e53ee3")
+	)
+	(wire
+		(pts
+			(xy 96.52 81.28) (xy 189.23 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "354b0981-95c4-4439-8f18-eeb32325beb3")
+	)
+	(wire
+		(pts
+			(xy 96.52 66.04) (xy 120.65 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "372bfc26-a3ad-4f59-a3b4-ef7e5fc1337d")
+	)
+	(wire
+		(pts
+			(xy 121.92 53.34) (xy 120.65 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a868ebc-ece5-429b-8985-e425d2dd618b")
+	)
+	(wire
+		(pts
+			(xy 104.14 157.48) (xy 120.65 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e314e89-ee72-480d-a0c9-c2bdd907c52e")
+	)
+	(wire
+		(pts
+			(xy 214.63 113.03) (xy 276.86 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44b2983e-1ddf-43e8-ac27-c4ceed679465")
+	)
+	(wire
+		(pts
+			(xy 152.4 21.59) (xy 54.61 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "469280bb-ac3c-41fa-abb4-5b5d54fb0e4c")
+	)
+	(wire
+		(pts
+			(xy 101.6 96.52) (xy 101.6 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47440360-56c7-4d9a-b963-5d4c1905d5d8")
+	)
+	(wire
+		(pts
+			(xy 146.05 165.1) (xy 153.67 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d32cea7-33d7-41c2-843b-cc015dc3eec4")
+	)
+	(wire
+		(pts
+			(xy 120.65 66.04) (xy 120.65 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e6e07f7-da37-4109-82ff-0a90226d7305")
+	)
+	(wire
+		(pts
+			(xy 107.95 160.02) (xy 107.95 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5378ca48-b17e-4b8f-9151-09377410f22c")
+	)
+	(wire
+		(pts
+			(xy 107.95 48.26) (xy 96.52 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ceff18e-fc80-47bc-82ee-dfe7b1c6dfe2")
+	)
+	(wire
+		(pts
+			(xy 214.63 58.42) (xy 214.63 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63026e6c-974e-4697-8ce5-812c3393f441")
+	)
+	(wire
+		(pts
+			(xy 153.67 165.1) (xy 153.67 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65501386-5624-4ef8-89ee-2fbe4f21e5c4")
+	)
+	(wire
+		(pts
+			(xy 163.83 86.36) (xy 96.52 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b942783-13d1-49a9-8d50-ae36eb16b542")
+	)
+	(wire
+		(pts
+			(xy 104.14 76.2) (xy 104.14 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6df90cd9-9502-447a-ae27-61c25ef10bd8")
+	)
+	(wire
+		(pts
+			(xy 163.83 25.4) (xy 163.83 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7418fe06-c727-4515-83cf-4a07141ac986")
+	)
+	(wire
+		(pts
+			(xy 54.61 43.18) (xy 66.04 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7921d504-9d82-40a3-b659-f99194210245")
+	)
+	(wire
+		(pts
+			(xy 54.61 45.72) (xy 66.04 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8382a928-d5a1-4997-b004-9546daa08d6a")
+	)
+	(wire
+		(pts
+			(xy 107.95 53.34) (xy 107.95 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9537c0f0-41b2-40c2-af52-eca82b87b14d")
+	)
+	(wire
+		(pts
+			(xy 104.14 157.48) (xy 93.98 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4ccd201-4942-4d0c-a582-165fcf734158")
+	)
+	(wire
+		(pts
+			(xy 152.4 43.18) (xy 152.4 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b49ae13c-5804-4098-8a90-13ffccc53d60")
+	)
+	(wire
+		(pts
+			(xy 219.71 58.42) (xy 214.63 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6aca23d-5408-45d7-b108-83b6db6f0f6c")
+	)
+	(wire
+		(pts
+			(xy 101.6 152.4) (xy 93.98 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c103c78e-cdd4-439c-9563-a345bf4b6f99")
+	)
+	(wire
+		(pts
+			(xy 219.71 43.18) (xy 152.4 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3dd829c-1925-4deb-a96a-1daa72149226")
+	)
+	(wire
+		(pts
+			(xy 54.61 21.59) (xy 54.61 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7dfe547-7243-4216-8ca0-32361c3a2569")
+	)
+	(wire
+		(pts
+			(xy 120.65 58.42) (xy 121.92 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d839e6e7-a29d-476e-9703-3ebbf5dd8f09")
+	)
+	(wire
+		(pts
+			(xy 116.84 48.26) (xy 121.92 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e34b49b0-251c-4a83-909b-2275915ddba0")
+	)
+	(wire
+		(pts
+			(xy 189.23 53.34) (xy 219.71 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8750c2c-2a76-4393-9186-1ebb1c8bef08")
+	)
+	(wire
+		(pts
+			(xy 120.65 53.34) (xy 107.95 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea688394-b153-4699-915c-a84b8cbe587c")
+	)
+	(wire
+		(pts
+			(xy 93.98 160.02) (xy 107.95 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec16fe26-6b3c-4753-914e-47f57d2d9495")
+	)
+	(wire
+		(pts
+			(xy 213.36 88.9) (xy 213.36 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3695221-7412-47d6-9099-ac8748316b11")
+	)
+	(wire
+		(pts
+			(xy 96.52 63.5) (xy 116.84 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f830995b-fc1e-4b7d-8701-4c7857381f90")
+	)
+	(wire
+		(pts
+			(xy 214.63 93.98) (xy 214.63 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb02ca64-6fa0-4abb-9e59-b29e3a7f257e")
+	)
+	(wire
+		(pts
+			(xy 219.71 25.4) (xy 163.83 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb7cc395-6250-4ad1-9145-48bb9fb82c81")
+	)
+	(wire
+		(pts
+			(xy 54.61 124.46) (xy 54.61 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc3dc8a8-6da9-4148-bb74-1bbf1c23ad39")
+	)
 	(symbol
 		(lib_id "SIM7080G:SIM7080G")
-		(at 171.45 71.12 0)
+		(at 245.11 60.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3441,7 +3767,7 @@
 		(fields_autoplaced yes)
 		(uuid "26734d89-5f42-4ed2-8187-d63cde613220")
 		(property "Reference" "U2"
-			(at 171.45 22.86 0)
+			(at 245.11 12.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3451,7 +3777,7 @@
 			)
 		)
 		(property "Value" "SIM7080G"
-			(at 171.45 25.4 0)
+			(at 245.11 15.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3461,7 +3787,7 @@
 			)
 		)
 		(property "Footprint" "SIM7080G:XCVR_SIM7080G"
-			(at 171.45 71.12 0)
+			(at 245.11 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3473,7 +3799,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 71.12 0)
+			(at 245.11 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3484,7 +3810,7 @@
 			)
 		)
 		(property "Description" "Cellular, Navigation Galileo, GLONASS, GPS, GNSS, LTE Transceiver Module 1.559GHz ~ 1.576GHz, 1.575GHz ~ 1.576GHz, 1.574GHz ~ 1.606GHz, 1.598GHz ~ 1.563GHz Antenna Not Included Surface Mount"
-			(at 171.45 71.12 0)
+			(at 245.11 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3496,7 +3822,7 @@
 			)
 		)
 		(property "MF" "SIMCom"
-			(at 171.45 71.12 0)
+			(at 245.11 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3508,7 +3834,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "2.6 mm"
-			(at 171.45 71.12 0)
+			(at 245.11 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3520,7 +3846,7 @@
 			)
 		)
 		(property "Package" "Package"
-			(at 171.45 71.12 0)
+			(at 245.11 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3532,7 +3858,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 171.45 71.12 0)
+			(at 245.11 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3544,7 +3870,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/SIM7080G/SIMCom/view-part/?ref=eda"
-			(at 171.45 71.12 0)
+			(at 245.11 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3556,7 +3882,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendation"
-			(at 171.45 71.12 0)
+			(at 245.11 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3568,7 +3894,7 @@
 			)
 		)
 		(property "PARTREV" "1.04"
-			(at 171.45 71.12 0)
+			(at 245.11 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3580,7 +3906,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/SIM7080G/SIMCom/view-part/?ref=snap"
-			(at 171.45 71.12 0)
+			(at 245.11 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3592,7 +3918,7 @@
 			)
 		)
 		(property "MP" "SIM7080G"
-			(at 171.45 71.12 0)
+			(at 245.11 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3604,7 +3930,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 171.45 71.12 0)
+			(at 245.11 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3616,7 +3942,7 @@
 			)
 		)
 		(property "MANUFACTURER" "SIMCOM"
-			(at 171.45 71.12 0)
+			(at 245.11 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4035,7 +4361,7 @@
 	)
 	(symbol
 		(lib_id "Interface_UART:MAX3485")
-		(at 257.81 80.01 0)
+		(at 132.08 53.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4046,7 +4372,7 @@
 		(fields_autoplaced yes)
 		(uuid "39829a81-f47d-4c9b-977b-6229737a8ef6")
 		(property "Reference" "U5"
-			(at 259.9533 62.23 0)
+			(at 134.2233 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4057,7 +4383,7 @@
 			)
 		)
 		(property "Value" "MAX3485"
-			(at 259.9533 64.77 0)
+			(at 134.2233 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4068,7 +4394,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 257.81 102.87 0)
+			(at 132.08 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4079,7 +4405,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheets.maximintegrated.com/en/ds/MAX3483-MAX3491.pdf"
-			(at 257.81 78.74 0)
+			(at 132.08 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4090,7 +4416,7 @@
 			)
 		)
 		(property "Description" "True RS-485/RS-422, 10Mbps, Slew-Rate Limited, with low-power shutdown, with receiver/driver enable, 32 receiver drive capacitity, DIP-8 and SOIC-8"
-			(at 257.81 80.01 0)
+			(at 132.08 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4128,97 +4454,6 @@
 			(project "projeto_01_unimecengenharia"
 				(path "/6d6de610-2d55-4130-a914-29a7528bf19d"
 					(reference "U5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Switching:LM2596S-ADJ")
-		(at 236.22 138.43 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "81e92738-e697-4321-9908-3b0a5449b8bc")
-		(property "Reference" "U6"
-			(at 236.22 128.27 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM2596S-ADJ"
-			(at 236.22 130.81 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-263-5_TabPin3"
-			(at 237.49 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2596.pdf"
-			(at 236.22 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Adjustable 3A Step-Down Voltage Regulator, TO-263"
-			(at 236.22 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "33cd9cc2-4ac6-4baf-affa-aee26bfc5a90")
-		)
-		(pin "3"
-			(uuid "ef718cc4-b604-47a3-875a-2a06baf18c39")
-		)
-		(pin "5"
-			(uuid "716f1d01-2baf-4c98-97c2-1104d708eeb9")
-		)
-		(pin "4"
-			(uuid "e0452d39-5960-4173-8094-a6e11f2f4619")
-		)
-		(pin "2"
-			(uuid "1fb3d96b-de56-4d61-9b85-68f02832623f")
-		)
-		(instances
-			(project "projeto_01_unimecengenharia"
-				(path "/6d6de610-2d55-4130-a914-29a7528bf19d"
-					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -4332,7 +4567,7 @@
 	)
 	(symbol
 		(lib_id "Timer_RTC:DS3231MZ")
-		(at 255.27 33.02 0)
+		(at 133.35 162.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4343,7 +4578,7 @@
 		(fields_autoplaced yes)
 		(uuid "c0ba9bc7-da77-4291-a5e1-e9a143d6e818")
 		(property "Reference" "U4"
-			(at 257.4133 43.18 0)
+			(at 135.4933 172.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4354,7 +4589,7 @@
 			)
 		)
 		(property "Value" "DS3231MZ"
-			(at 257.4133 45.72 0)
+			(at 135.4933 175.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4365,7 +4600,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 255.27 45.72 0)
+			(at 133.35 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4376,7 +4611,7 @@
 			)
 		)
 		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS3231M.pdf"
-			(at 255.27 48.26 0)
+			(at 133.35 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4387,7 +4622,7 @@
 			)
 		)
 		(property "Description" "±5ppm, I2C Real-Time Clock SOIC-8"
-			(at 255.27 33.02 0)
+			(at 133.35 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
